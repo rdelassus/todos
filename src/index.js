@@ -15,7 +15,7 @@ import { HashRouter as Router } from "react-router-dom"
 
 ReactDOM.render(
   <React.StrictMode>
-    <>
+    <div className="container">
       <Router>
           <Navbar/>
           <Routes>
@@ -27,7 +27,7 @@ ReactDOM.render(
             <Route path='*' element={<NotMatch />}></Route>
           </Routes>
         </Router>
-    </>
+    </div>
   </React.StrictMode>,
   document.getElementById("root")
 )

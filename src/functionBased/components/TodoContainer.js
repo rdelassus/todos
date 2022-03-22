@@ -75,7 +75,6 @@ const TodoContainer = () => {
   }, [todos])
 
   return (
-    <div className="container">
       <div className="inner">
         <Header />
         <InputTodo addTodoProps={addTodoItem} />
@@ -86,7 +85,6 @@ const TodoContainer = () => {
           setUpdate={setUpdate}
         />
       </div>
-    </div>
   );
 
 }
